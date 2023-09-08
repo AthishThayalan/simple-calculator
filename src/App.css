@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calc-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  width: 300px; /* Adjust the width as needed */
+  margin: 0 auto;
+  padding-left: 20px; /* Add some padding for spacing */
+  padding-right: 20px;
+  
+}
+
+.calc-screen{
+  width: 220px;
+  background-color: #353333;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+  /* border: 1px solid white; */
+  margin: 0 auto;
+  padding-left: 20px; /* Add some padding for spacing */
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  height: 70px;
+  overflow: hidden; /* Hide content that overflows */
+  position: relative; /* Set as relative positioning */
+
+}
+
+.calc-screen p {
+  font-size: 1.9rem;
+    /* ... other styles ... */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display ellipsis (...) when text overflows */
+    
+    
+
+  
+  
+}
